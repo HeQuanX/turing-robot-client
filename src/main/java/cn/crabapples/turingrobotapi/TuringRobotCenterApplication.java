@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class TuringRobotApiApplication {
+public class TuringRobotCenterApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TuringRobotApiApplication.class, args);
+        SpringApplication.run(TuringRobotCenterApplication.class, args);
     }
 
 }
